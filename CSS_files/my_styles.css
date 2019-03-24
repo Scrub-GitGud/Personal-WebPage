@@ -1,0 +1,110 @@
+body {background-color: black; margin: 0; text-align: center; font-family: 'Montserrat', sans-serif;}
+hr {
+  border-style: dotted none none none;
+  border-color: white;
+  border-width: 5px;
+  height: 0px;
+  width: 10%;
+  }
+h3 {color: white; font-family: 'Inconsolata', monospace;}
+h1 {color: orange; margin-top: 0; width: 50%; font-size: 375%; margin: 0 auto; 0 auto; font-family: 'Indie Flower', cursive;}
+h2 {color: #a8ff03}
+span {color: #fdc029}
+div {background-color: black;}
+em {color: #a8ff03; font-size: 1.2rem;}
+p {color: white; line-height: 21px}
+strong{color: #fdc029}
+li {color: white;}
+th {color: #fdc029}
+td {color: white}
+label {color: white; visibility: }
+img {width:200px; height:200px; background-color: black;}
+/* img:hover {border-radius: 90%} */
+img:hover {background-color: black}
+a {color: orange; text-decoration: none;}
+a:hover {color: white}
+
+button {color: Orange; background-color: Black; border: 2px solid; border-color: orange; border-radius: 2px; padding: 15px 32px;  text-align: center; font-size: 16px; }
+button:hover {color: White; background-color: Orange; border-color: black;}
+
+input {color: black; background-color: white; border: 2px solid; border-color: white; border-radius: 5px; padding: 5px 18px;  text-align: center; font-size: 16px; }
+textarea {color: black; background-color: white; border: 2px solid white; border-radius: 5px; padding: 5px 18px;  text-align: center; font-size: 16px; }
+
+
+/**********************************************Class Selectors***************************************/
+
+.bomb {background-color: blue}
+.second_class {height: 90px; width: 90px}
+.firecracker {background-color: red}
+.city_image {height: 60%; width: 100%; position: relative; bottom: 17px; top: 2px; margin-bottom: 25px}
+/* .city_image:hover {background-color: white} */
+.top_div{padding-top: 30px}
+.u_list{text-align: left;}
+.my_face{border-radius: 100%; width: 250px; height: 250px; transition: 0.2s}
+.my_face:hover {border-radius: 15%; transform: scale(1.1);}
+.skill_table {padding-left: 38%}
+.indie_dev {margin: 0 auto; 0 auto;}
+/* .skill_table { display: inline; text-align: left;} */
+/* .skill_title {float: right;} */
+/* .game_div {width: 50%; margin: 100px auto 100px auto; text-align: left;} */
+.h3 {color: #a8ff03}
+.journey_div {width: 77%; margin: 100px auto 100px auto; text-align: left;}
+.journey_gif{border-radius: 100%; width: 28%; height: 28%; float: left; margin-right: 30px}
+/* .journey_story { clear: left;} */
+.skill_div {width: 77%; margin: 100px auto 100px auto; text-align: left;}
+.coding_gif {border-radius: 70%; width: 210px; height: 12.8em; float: right; margin-right: 30px}
+.virusGif {border-radius: 70%; width: 10%; height: 18%;}
+.experience_div {width: 77%; margin: 100px auto 100px auto; text-align: left;}
+.xp_table {margin-right: 52px; float: left; border: 2px solid white; }
+td {height: 25px} td {padding-left: 10px}
+.project_div{width: 77%; margin: 100px auto 100px auto; text-align: left;}
+.pacman {width: 35%; height: 200px; float: right;}
+
+.moon {background-color: Orange; width: 13%; height: 20%; position: absolute; left: 150px; top: 100px}
+.moon:hover {background-color: white}
+.bats {width: 12%; height: 10%; background-color: White; position: absolute; right: 20%; top: 35%;}
+.bats:hover {background-color: Orange}
+.end_hr {border: solid; border-color: white; border-width: 0.5px; height: 0px; width: 95%; margin: 50px auto 50px auto;}
+
+.submit_button {color: Orange; background-color: Black; border: 2px solid; border-color: orange; border-radius: 5px; padding: 15px 32px;  text-align: center; font-size: 16px; }
+.submit_button:hover {color: White; background-color: Orange; border-color: black;}
+.massage {text-align: right; margin-right: 215px}
+.animated_shorts_button {margin-left: 5px; background-color: Orange; color: white; border: 2px solid Orange}
+.animated_shorts_button:hover {color: Orange; background-color: Black; border: 2px solid Orange}
+
+.getInTouch {font-size: 35px}
+.bye {line-height: 28px}
+.footer {background-color: #474747; padding: 35px 0 3px 0; margin-top: 50px}
+.foot_a {color: black; margin-left: 15px; font-size: 20px}
+.copyright {font-size: 15px}
+
+
+.butn {
+ -webkit-border-radius: 3;
+ -moz-border-radius: 3;
+ border-radius: 2px;
+ font-family: 'Montserrat', sans-serif;
+ color: orange;
+ font-size: 15px;
+ background: black;
+ padding: 10px 20px 10px 20px;
+ border: solid orange 2px;
+ text-decoration: none;
+}
+
+.butn:hover {
+ background: Orange;
+ color: White;
+ text-decoration: none;
+}
+
+.wide_img {width: 350px; height: 200px; margin-left: 0px; transition: 0.1s}
+.wide_img:hover{transform: scale(1.1); z-index: 1}
+.portfolio_img {transition: 0.2s; position: relative;}
+.portfolio_img:hover {transform: scale(1.1); z-index: 1}
+.portfolio_footer {margin: 6%}
+
+/**********************************************ID Selectors***************************************/
+
+#hobby {color: #11fcec; font-size: 50px}
+#and {color: white}
